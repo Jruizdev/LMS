@@ -38,6 +38,6 @@ Los administradores e instructores pueden supervisar el progreso a través de vi
 
 ## Arquitectura de frontend
 
-El frontend utiliza un sistema de componentes de datos personalizado . En lugar de escribir HTML repetitivo, los archivos PHP definen contenedores con data-componenteatributos, que js/plantillas.jsse hidratan mediante <template>etiquetas.
+El frontend utiliza un sistema de componentes de datos personalizado . En lugar de escribir HTML repetitivo, los archivos PHP definen contenedores con data-componenteatributos, que js/plantillas.js se hidratan mediante <template>etiquetas.
 
 
