@@ -10,12 +10,12 @@ La aplicación sigue una arquitectura modular de PHP donde la lógica de negocio
 
 ### 1. Entrada y navegación de la aplicación
 
-El sistema utiliza index.phpcomo puerta de enlace de autenticación principal. Tras iniciar sesión correctamente, los usuarios son redirigidos a inicio.php, que funciona como un panel personalizado que muestra la actividad reciente, los cursos pendientes y las estadísticas.
+El sistema utiliza index.php como puerta de enlace de autenticación principal. Tras iniciar sesión correctamente, los usuarios son redirigidos a inicio.php, que funciona como un panel personalizado que muestra la actividad reciente, los cursos pendientes y las estadísticas.
 
 ### 2. Roles de usuario y seguridad
 
-El LMS admite tres roles principales: Empleado , Instructor y Administrador . El control de acceso se aplica mediante mecanismos de validación de sesión.
-* **Autenticación:** Gestionada medianteValidarSesion() y ValidarAdmin().
+El LMS admite tres roles principales: Empleado, Instructor y Administrador. El control de acceso se aplica mediante mecanismos de validación de sesión.
+* **Autenticación:** Gestionada medianteValidarSesion () y ValidarAdmin ().
 * **Gestión de sesiones:** puntos de entrada como; catalogo_cursos.php y cursos_internos.php.
 
 ### 3. Gestión de los cursos
