@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+    <html>
+        <head>
+            <style>
+                :root {
+                    --rojo: #F00;
+                }
+            
+                * {
+                    font-family: Roboto;
+                    line-height: 1.3rem;
+                }
+                #contenido {
+                    padding: 0 50px;
+                }
+                #sello {
+                    padding: 0;
+                    margin: 0;
+                    text-align: right;
+                }
+                .titulo {
+                    font-family: Roboto-Bold;
+                    font-size: 2.5rem;
+                    font-weight: bold;
+                    text-transform: uppercase;
+                }
+                .subtitulo {
+                    font-family: Roboto-Bold;
+                    font-size: 1.8rem;
+                    text-transform: uppercase;
+                    color: var(--rojo);
+                }
+                .nombre-empleado {
+                    font-family: alexbrush;
+                    font-size: 4rem;
+                    text-align: center;
+                    padding: 50px 0;
+                    line-height: 3rem;
+                }
+                .nombre-curso {
+                    font-family: Roboto-Bold;
+                    text-align: center;
+                    padding: 30px 0;
+                    font-size: 1.6rem;
+                }
+                .texto {
+                    font-size: 1.2rem;
+                }
+                .justificar {
+                    text-align: justify;
+                }
+            </style>
+        </head>
+        <body>
+            <table>
+                <tbody>
+                    <tr>
+                        <td>{IMG_AFTERMARKET}</td>
+                        <td>
+                            <table id="contenido">
+                                <tr>
+                                    <td class="titulo">[Título]</td>
+                                    <td id="sello" rowspan="2">
+                                        {IMG_SELLO}
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td class="subtitulo" colspan="2">Otorga el presente reconocimiento a:</td>
+                                </tr>
+                                <tr>
+                                    <td class="nombre-empleado" colspan="2">{NOMBRE_EMPLEADO}</td>
+                                </tr>
+                                <tr>
+                                    <td colspan="2"><center class="texto">Por haber completado satisfactoriamente el curso de:<center></td>
+                                </tr>
+                                <tr>
+                                    <td class="nombre-curso" colspan="2">{NOMBRE_CURSO}</td>
+                                </tr>
+                                <tr>
+                                    <td colspan="2"><center class="texto">{FECHA_CURSO}<center></td>
+                                </tr>
+                                <tr>
+                                    <td colspan="2"><hr/></td>
+                                </tr>
+                                <tr>
+                                    <td colspan="2" class="texto justificar">Impartido a través de la Plataforma de Gestión de Aprendizaje (LMS). Éste documento avala el compromiso y la participación activa del colaborador en el proceso de capacitación interna, fortaleciendo sus competencias profesionales.</td>
+                                </tr>
+                                <tr>
+                                    <td colspan="2">
+                                        <center>{IMG_LOGO}</center>
+                                    </td>
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </body>
+    </html>

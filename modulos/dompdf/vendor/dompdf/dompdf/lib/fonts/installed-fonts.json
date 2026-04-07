@@ -1,0 +1,26 @@
+{
+    "alexbrush": {
+        "normal": "C:\\xampp\\htdocs\\LMS\\modulos\\dompdf\\vendor\\dompdf\\dompdf\/lib\/fonts\/AlexBrush",
+        "bold": "C:\\xampp\\htdocs\\LMS\\modulos\\dompdf\\vendor\\dompdf\\dompdf\/lib\/fonts\/AlexBrush",
+        "italic": "C:\\xampp\\htdocs\\LMS\\modulos\\dompdf\\vendor\\dompdf\\dompdf\/lib\/fonts\/AlexBrush",
+        "bold_italic": "C:\\xampp\\htdocs\\LMS\\modulos\\dompdf\\vendor\\dompdf\\dompdf\/lib\/fonts\/AlexBrush"
+    },
+    "roboto": {
+        "normal": "C:\\xampp\\htdocs\\LMS\\modulos\\dompdf\\vendor\\dompdf\\dompdf\/lib\/fonts\/Roboto",
+        "bold": "C:\\xampp\\htdocs\\LMS\\modulos\\dompdf\\vendor\\dompdf\\dompdf\/lib\/fonts\/Roboto",
+        "italic": "C:\\xampp\\htdocs\\LMS\\modulos\\dompdf\\vendor\\dompdf\\dompdf\/lib\/fonts\/Roboto",
+        "bold_italic": "C:\\xampp\\htdocs\\LMS\\modulos\\dompdf\\vendor\\dompdf\\dompdf\/lib\/fonts\/Roboto"
+    },
+    "satisfy-regular": {
+        "normal": "C:\\xampp\\htdocs\\LMS\\modulos\\dompdf\\vendor\\dompdf\\dompdf\/lib\/fonts\/Satisfy-Regular",
+        "bold": "C:\\xampp\\htdocs\\LMS\\modulos\\dompdf\\vendor\\dompdf\\dompdf\/lib\/fonts\/Satisfy-Regular",
+        "italic": "C:\\xampp\\htdocs\\LMS\\modulos\\dompdf\\vendor\\dompdf\\dompdf\/lib\/fonts\/Satisfy-Regular",
+        "bold_italic": "C:\\xampp\\htdocs\\LMS\\modulos\\dompdf\\vendor\\dompdf\\dompdf\/lib\/fonts\/Satisfy-Regular"
+    },
+    "roboto-bold": {
+        "normal": "C:\\xampp\\htdocs\\LMS\\modulos\\dompdf\\vendor\\dompdf\\dompdf\/lib\/fonts\/Roboto-Bold",
+        "bold": "C:\\xampp\\htdocs\\LMS\\modulos\\dompdf\\vendor\\dompdf\\dompdf\/lib\/fonts\/Roboto-Bold",
+        "italic": "C:\\xampp\\htdocs\\LMS\\modulos\\dompdf\\vendor\\dompdf\\dompdf\/lib\/fonts\/Roboto-Bold",
+        "bold_italic": "C:\\xampp\\htdocs\\LMS\\modulos\\dompdf\\vendor\\dompdf\\dompdf\/lib\/fonts\/Roboto-Bold"
+    }
+}

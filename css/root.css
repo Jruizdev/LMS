@@ -1,0 +1,44 @@
+:root {
+	--fondo: #F7F6F6;
+	--light: #FFFFFF;
+	--azul: #00A4D3;
+	--azul-dark: #0290b8;
+	--aprobado: #72BB53;
+	--aprobado-dark: #5ca73c;
+	--entidad-primario: #FF0A07;
+	--entidad-primario-hover: rgb(192, 2, 2);
+	--entidad-secundario: #232323;
+	--entidad-complementario: #b5b5b5;
+	--titulo-secundario: #8c8c8c;
+	--menu-primario:rgb(107, 107, 107);
+	--menu-secundario: #444444;
+	--menu-hover: #EEE;
+	--footer-hover: #DEDEDE;
+	--btn-secundario: #CCC;
+	--curso-hover: #DDD;
+	--dropdown-dark: #343a40;
+	--tooltip-color: #232323;
+	--tabla-hover: #e5e5e5;
+	--msg-error: #f1aeb5;
+	--texto-error: #58151c;
+	
+	--p0: 1%;
+	--p1: 2%;
+	--p2: 4%;
+	--p3: 8%;
+	--p4: 10%;
+	--p5: 15%;
+	--max-content-width: 1100px;
+	--success: #569c38;
+	--pendiente: #F57E23;
+	--pendiente-dark: #f36d19;
+	--vencido: #fff1dc;
+	--vencido-hover: #fadfb8;
+	--vencido-hover-icono: #f8ba61;
+	interpolate-size: allow-keywords;
+}
+
+@keyframes loadUp {
+	from { scale: 0; }
+	to { scale: 1; }
+}
